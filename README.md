@@ -1,15 +1,15 @@
 # Librerie utilizzate
 
 * **Alamofire**
-  Libreria utilizzata per migliore uso delle request alle api
+Libreria utilizzata per migliore uso delle request alle api
 * **PureLayout**
-  Libreria utilizzata come wrapper della creazione dei layout tramite constraint, migliora leggibilità e sviluppo.
+Libreria utilizzata come wrapper della creazione dei layout tramite constraint, migliora leggibilità e sviluppo.
 * **SDWebImage**
-  Libreria utilizzata per il caching delle immagini renderizzate tramite url remoto
+Libreria utilizzata per il caching delle immagini renderizzate tramite url remoto
 * **RealmSwift**
-  Libreria utilizzata come database locale
+Libreria utilizzata come database locale
 * **ObjectMapper**
-  Libreria utilizzata per il mapping dei dati ricevuti dalle api nei modelli del database
+Libreria utilizzata per il mapping dei dati ricevuti dalle api nei modelli del database
 
 # Descrizione progetto
 

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  poke-list
+
+  Created by Nicola Innocenti on 30/10/21.
+  
+*/
+
+"home" = "Home";
+"favorites" = "Preferiti";
+"network_error" = "Errore di rete";
+"downloading" = "Aggiornamento";
+"abilities" = "Abilità";
+"moves" = "Mosse";
+"pokemons" = "Pokémon";
+"stats" = "Statistiche";
+"search" = "Cerca";

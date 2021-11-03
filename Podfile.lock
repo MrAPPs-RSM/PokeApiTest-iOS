@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.4)
+  - ObjectMapper (4.2.0)
+  - PureLayout (3.1.9)
+  - Realm (10.18.0):
+    - Realm/Headers (= 10.18.0)
+  - Realm/Headers (10.18.0)
+  - RealmSwift (10.18.0):
+    - Realm (= 10.18.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper
+  - PureLayout
+  - RealmSwift
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - PureLayout
+    - Realm
+    - RealmSwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  Realm: b8b0a36bf48c39c50fd8cee7ac34005e6d887ddd
+  RealmSwift: fe2f33d731f47aaf4c3618930f9f7cf7b935c33f
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+
+PODFILE CHECKSUM: 9c17f6704f76e38655bceae3aa33c79f2049070c
+
+COCOAPODS: 1.11.2

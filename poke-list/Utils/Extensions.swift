@@ -217,6 +217,15 @@ extension UIApplication {
 
 extension Locale {
     static var systemLanguage: String {
-        return Locale.preferredLanguages.first ?? "it"
+        if let language = Locale.preferredLanguages.first {
+            let split = language.split(separator: "-")
+            if split.count > 0 {
+                return String(split[0])
+            } else {
+                return language
+            }
+        } else {
+            return "it"
+        }
     }
 }

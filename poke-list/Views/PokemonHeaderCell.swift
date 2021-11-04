@@ -55,6 +55,7 @@ class PokemonHeaderCell: UITableViewCell {
     // MARK: - Other Methods
     
     private func createLayout() {
+        selectionStyle = .none
         backgroundColor = .navBar
         
         addSubview(spritesContainer)

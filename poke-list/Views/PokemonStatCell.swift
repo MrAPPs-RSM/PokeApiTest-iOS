@@ -18,7 +18,7 @@ class PokemonStatCell: UITableViewCell {
     }()
     private var lblTitle: UILabel = {
         let label = UILabel()
-        label.font = UIFont.medium(size: 15)
+        label.font = UIFont.medium(size: 14)
         label.textColor = .navBarTint
         return label
     }()
@@ -48,7 +48,7 @@ class PokemonStatCell: UITableViewCell {
     
     private var pokemonStat: PokemonStat!
     private var higherStat: Int!
-    private let titleWidth: CGFloat = 130
+    private let titleWidth: CGFloat = 140
     private let valueWidth: CGFloat = 50
     private var cntValueLeading: NSLayoutConstraint!
     
@@ -71,6 +71,7 @@ class PokemonStatCell: UITableViewCell {
     }
     
     private func createLayout() {
+        selectionStyle = .none
         backgroundColor = .navBar
         
         addSubview(titleContainer)
